@@ -33,7 +33,7 @@ git clone https://github.com/fylexcon/petrolstationproject.git
 cd petrolstationproject
 
 
-Backend Setup (FastAPI)
+### 2. Backend Setup (FastAPI)
 
 cd backend
 pip install fastapi uvicorn
@@ -41,15 +41,14 @@ uvicorn main:app --reload
 
 FastAPI will run at: http://localhost:8000
 
-
-3. Frontend Setup (React)
+### 3. Frontend Setup (React)
 
 cd fuel-station-frontend
 npm install
 npm run dev
 React app will run at: http://localhost:5173
 
-📬 API Endpoints
+## 📬 API Endpoints
 
 
 | Method | Endpoint        | Description                 |
