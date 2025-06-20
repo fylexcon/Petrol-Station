@@ -1,0 +1,23 @@
+{
+    "fuels": {
+        "gasoline": {
+            "amount": 2000.0,
+            "price": 48
+        },
+        "diesel": {
+            "amount": 2000.0,
+            "price": 44
+        },
+        "lpg": {
+            "amount": 2000.0,
+            "price": 25
+        }
+    },
+    "income": 0.0,
+    "sales_history": [],
+    "refill_history": [],
+    "meta": {
+        "sales_requests": 0,
+        "refill_requests": 0
+    }
+}
