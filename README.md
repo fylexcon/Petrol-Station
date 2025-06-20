@@ -28,34 +28,36 @@ A full-stack fuel station management system built with **FastAPI** (backend) and
 
 ### 1. Clone the Repo
 
-```bash
+
 git clone https://github.com/fylexcon/petrolstationproject.git
 cd petrolstationproject
-2. Backend Setup (FastAPI)
-bash
-Kopyala
-Düzenle
+
+
+Backend Setup (FastAPI)
+
 cd backend
 pip install fastapi uvicorn
 uvicorn main:app --reload
+
 FastAPI will run at: http://localhost:8000
 
+
 3. Frontend Setup (React)
-bash
-Kopyala
-Düzenle
+
 cd fuel-station-frontend
 npm install
 npm run dev
 React app will run at: http://localhost:5173
 
 📬 API Endpoints
-Method	Endpoint	Description
-POST	/sales	Submit a fuel sale
-POST	/refill	Submit a fuel refill
-GET	/sales	List all sales
-GET	/refills	List all refills
-GET	/fuels	Get current fuel stock
-GET	/income	Total income from all sales
-GET	/full_history	Timeline of all activity
 
+
+| Method | Endpoint        | Description                 |
+| ------ | --------------- | --------------------------- |
+| POST   | `/sales`        | Submit a fuel sale          |
+| POST   | `/refill`       | Submit a fuel refill        |
+| GET    | `/sales`        | List all sales              |
+| GET    | `/refills`      | List all refills            |
+| GET    | `/fuels`        | Get current fuel stock      |
+| GET    | `/income`       | Total income from all sales |
+| GET    | `/full_history` | Timeline of all activity    |
