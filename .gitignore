@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.env
+*.venv/
+env/
+venv/
+*.sqlite3
+*.db
+*.log
+
+# Node.js
+node_modules/
+dist/
+.env.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS/system files
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# React build
+fuel-station-frontend/node_modules/
+fuel-station-frontend/dist/
+
+# Miscellaneous
+*.bak
+*.tmp
+*.orig
